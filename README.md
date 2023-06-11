@@ -23,8 +23,17 @@ To use this blockchain implementation, follow these steps:
    ```shell
    git clone https://github.com/your-username/simple-cryptocurrency-blockchain.git
 
-Requirements
+2. Open the blockchain.py file and run it using a Python interpreter.
+   python blockchain.py
+
+3. The program will generate a sample blockchain with three blocks and display the details of each block,     including timestamps, data, previous hashes, and hashes.
+
+4. You can modify the code to add more blocks or customize the transaction data.
+
+## Requirements
+
 This blockchain implementation requires Python 3.x and the hashlib module, which is included in the Python standard library.
 
-Limitations
+## Limitations
+
 Please note that this implementation is meant for educational purposes and is not production-ready. It lacks some of the advanced features and security measures found in real-world blockchain systems. Therefore, it should not be used for actual cryptocurrency transactions or sensitive data storage.
